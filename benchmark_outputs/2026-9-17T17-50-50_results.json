@@ -1,0 +1,137 @@
+{
+  "hendrycks_math_algebra": {
+    "name": "hendrycks_math_algebra",
+    "alias": "hendrycks_math_algebra",
+    "sample_len": 5,
+    "exact_match,none": 0.0,
+    "exact_match_stderr,none": 0.0
+  },
+  "hendrycks_math_counting_and_prob": {
+    "name": "hendrycks_math_counting_and_prob",
+    "alias": "hendrycks_math_counting_and_prob",
+    "sample_len": 5,
+    "exact_match,none": 0.2,
+    "exact_match_stderr,none": 0.20000000000000004
+  },
+  "hendrycks_math_geometry": {
+    "name": "hendrycks_math_geometry",
+    "alias": "hendrycks_math_geometry",
+    "sample_len": 5,
+    "exact_match,none": 0.0,
+    "exact_match_stderr,none": 0.0
+  },
+  "hendrycks_math_intermediate_algebra": {
+    "name": "hendrycks_math_intermediate_algebra",
+    "alias": "hendrycks_math_intermediate_algebra",
+    "sample_len": 5,
+    "exact_match,none": 0.0,
+    "exact_match_stderr,none": 0.0
+  },
+  "hendrycks_math_num_theory": {
+    "name": "hendrycks_math_num_theory",
+    "alias": "hendrycks_math_num_theory",
+    "sample_len": 5,
+    "exact_match,none": 0.0,
+    "exact_match_stderr,none": 0.0
+  },
+  "hendrycks_math_prealgebra": {
+    "name": "hendrycks_math_prealgebra",
+    "alias": "hendrycks_math_prealgebra",
+    "sample_len": 5,
+    "exact_match,none": 0.4,
+    "exact_match_stderr,none": 0.24494897427831783
+  },
+  "hendrycks_math_precalc": {
+    "name": "hendrycks_math_precalc",
+    "alias": "hendrycks_math_precalc",
+    "sample_len": 5,
+    "exact_match,none": 0.0,
+    "exact_match_stderr,none": 0.0
+  },
+  "minerva_math_algebra": {
+    "name": "minerva_math_algebra",
+    "alias": "minerva_math_algebra",
+    "sample_len": 5,
+    "exact_match,none": 1.0,
+    "exact_match_stderr,none": 0.0,
+    "math_verify,none": 1.0,
+    "math_verify_stderr,none": 0.0
+  },
+  "minerva_math_counting_and_prob": {
+    "name": "minerva_math_counting_and_prob",
+    "alias": "minerva_math_counting_and_prob",
+    "sample_len": 5,
+    "exact_match,none": 1.0,
+    "exact_match_stderr,none": 0.0,
+    "math_verify,none": 1.0,
+    "math_verify_stderr,none": 0.0
+  },
+  "minerva_math_geometry": {
+    "name": "minerva_math_geometry",
+    "alias": "minerva_math_geometry",
+    "sample_len": 5,
+    "exact_match,none": 1.0,
+    "exact_match_stderr,none": 0.0,
+    "math_verify,none": 1.0,
+    "math_verify_stderr,none": 0.0
+  },
+  "minerva_math_intermediate_algebra": {
+    "name": "minerva_math_intermediate_algebra",
+    "alias": "minerva_math_intermediate_algebra",
+    "sample_len": 5,
+    "exact_match,none": 0.8,
+    "exact_match_stderr,none": 0.20000000000000004,
+    "math_verify,none": 0.8,
+    "math_verify_stderr,none": 0.20000000000000004
+  },
+  "minerva_math_num_theory": {
+    "name": "minerva_math_num_theory",
+    "alias": "minerva_math_num_theory",
+    "sample_len": 5,
+    "exact_match,none": 1.0,
+    "exact_match_stderr,none": 0.0,
+    "math_verify,none": 1.0,
+    "math_verify_stderr,none": 0.0
+  },
+  "minerva_math_prealgebra": {
+    "name": "minerva_math_prealgebra",
+    "alias": "minerva_math_prealgebra",
+    "sample_len": 5,
+    "exact_match,none": 0.8,
+    "exact_match_stderr,none": 0.19999999999999998,
+    "math_verify,none": 0.8,
+    "math_verify_stderr,none": 0.19999999999999998
+  },
+  "minerva_math_precalc": {
+    "name": "minerva_math_precalc",
+    "alias": "minerva_math_precalc",
+    "sample_len": 5,
+    "exact_match,none": 0.8,
+    "exact_match_stderr,none": 0.19999999999999998,
+    "math_verify,none": 0.8,
+    "math_verify_stderr,none": 0.19999999999999998
+  },
+  "hendrycks_math": {
+    "alias": "hendrycks_math",
+    "name": "hendrycks_math",
+    "sample_len": 35,
+    "exact_match,none": 0.08571428571428572,
+    "exact_match_stderr,none": 0.045175395145262566,
+    "sample_count": {
+      "exact_match,none": 35
+    }
+  },
+  "minerva_math": {
+    "alias": "minerva_math",
+    "name": "minerva_math",
+    "sample_len": 35,
+    "exact_match,none": 0.9142857142857143,
+    "exact_match_stderr,none": 0.04948716593053935,
+    "math_verify,none": 0.9142857142857143,
+    "math_verify_stderr,none": 0.04948716593053935,
+    "sample_count": {
+      "exact_match,none": 35,
+      "math_verify,none": 35
+    }
+  }
+}

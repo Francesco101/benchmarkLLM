@@ -1,0 +1,23 @@
+{
+  "mmlu_anatomy": {
+    "name": "mmlu_anatomy",
+    "alias": "anatomy",
+    "sample_len": 5,
+    "acc,none": 0.4,
+    "acc_stderr,none": 0.24494897427831783
+  },
+  "mmlu_anatomy_generative_spanish": {
+    "name": "mmlu_anatomy_generative_spanish",
+    "alias": "anatomy_spanish",
+    "sample_len": 5,
+    "exact_match,default": 0.0,
+    "exact_match_stderr,default": 0.0
+  },
+  "mmlu_abstract_algebra": {
+    "name": "mmlu_abstract_algebra",
+    "alias": "abstract_algebra",
+    "sample_len": 5,
+    "acc,none": 0.2,
+    "acc_stderr,none": 0.2
+  }
+}
