@@ -1,0 +1,41 @@
+{
+    "logits-tests": {
+        "model": "local-completions",
+        "model_args": {
+            "model": null,
+            "base_url": "https://orfeo-llm.areasciencepark.it/vllm/v1/completions",
+            "num_concurrent": 1
+        },
+        "gen_kwargs": {
+            "max_tokens": 4096,
+            "temperature": 0.0,
+            "until": []
+        },
+        "apply_chat_template": false,
+        "tasks": [
+            "mmlu"
+        ],
+        "limit": 10,
+        "log_samples": false
+    },
+    "chat-tests": {
+        "model": "local-chat-completions",
+        "model_args": {
+            "model": null,
+            "tokenizer": false,
+            "base_url": "https://orfeo-llm.areasciencepark.it/vllm/v1/chat/completions",
+            "num_concurrent": 1
+        },
+        "gen_kwargs": {
+            "max_tokens": 4096,
+            "temperature": 0.0,
+            "until": []
+        },
+        "apply_chat_template": true,
+        "tasks": [
+            "gsm8k"
+        ],
+        "limit": 10,
+        "log_samples": false
+    }
+}
