@@ -7,3 +7,7 @@ Per ora
   • hendrics_math da vedere perché si buggava.
   • magari aggiungere altre categorie di test.
   • alcuni benchmark si trovano qui: https://epoch.ai/benchmarks?view=graph&tab=eci
+
+
+AGGIORNAMENTO:
+  • Attualmente gli LLM sono bloccati a 10000 tokens, questa era la causa dei bug sui test con reasoning lungo !
