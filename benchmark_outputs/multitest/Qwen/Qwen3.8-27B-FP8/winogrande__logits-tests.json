@@ -1,9 +1,0 @@
-{
-  "winogrande": {
-    "name": "winogrande",
-    "alias": "winogrande",
-    "sample_len": 50,
-    "acc,none": 0.8,
-    "acc_stderr,none": 0.05714285714285715
-  }
-}
